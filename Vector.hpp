@@ -4,6 +4,9 @@
 #include <cmath>
 #include "math.h"
 
+// Note in theory we should implement all the "special" functions 
+// for this class - making your lives easier by just asking you to
+// implement the default and copy constructors.
 template <typename T, std::size_t N>
 class Vector
 {
