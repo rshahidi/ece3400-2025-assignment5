@@ -26,6 +26,9 @@ public:
 	// overloaded indexing operator (initial index is 0)
 	T& operator[](int index);
 
+	// overloaded indexing operator (initial index is 0)
+	const T& operator[](int index) const;
+
 	// Overloaded addition operator
 	Vector<T,N>& operator+( const Vector<T,N>& v2);
 
