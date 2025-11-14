@@ -7,9 +7,7 @@ template <typename T>
 class Vector3 : public Vector<T,3>
 {
 public:
-
-	//only function required (constructors are from Vector<3,T>)
-	//the cross product method.
-	Vector3 cross(Vector3 v);
+        //only function required (constructors are from Vector<T,3>)
+        //the cross product method.
+        Vector3<T> cross(const Vector3<T>& v);
 };
-
